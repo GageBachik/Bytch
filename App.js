@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
+    fontFamily: 'CaviarDreams',
   },
   welcome: {
     fontSize: 20,

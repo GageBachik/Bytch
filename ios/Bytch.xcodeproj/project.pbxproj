@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -48,6 +47,10 @@
 		C819CAA4733F470B8F4DF305 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC42F5DF21448EB851219A /* libz.tbd */; };
 		E69CAEEDE0734BC1B4597B10 /* libAppCenterReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D295395CF1475FB937B3CB /* libAppCenterReactNative.a */; };
 		F00828ED392629F982C25268 /* libPods-Bytch-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AB9E378CBB4F988FD49A77 /* libPods-Bytch-tvOS.a */; };
+		0F7312A2E4E54C9AA9E1F77E /* CaviarDreams_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F05F34BE8C94631A775112D /* CaviarDreams_Bold.ttf */; };
+		A880183F97FD42FF94159A87 /* CaviarDreams_BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBB1802BF7BA4F8EA2CC0DD6 /* CaviarDreams_BoldItalic.ttf */; };
+		CC6809BAFFB34AB4B61B6D80 /* CaviarDreams_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE5A6B82AB4F451B988D927C /* CaviarDreams_Italic.ttf */; };
+		ACF99432F37A4FD9BDF834A4 /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8000107CDCF84ED8B09A5E2E /* CaviarDreams.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -410,6 +413,10 @@
 		E6CE99E73D574F8999E008F1 /* AppCenterReactNative.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNative.xcodeproj; path = ../node_modules/appcenter/ios/AppCenterReactNative.xcodeproj; sourceTree = "<group>"; };
 		E98E3C8CB562D95C713954D8 /* libPods-BytchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BytchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6F1163E72BF8FB8E197C97 /* Pods-Bytch-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bytch-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bytch-tvOSTests/Pods-Bytch-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F05F34BE8C94631A775112D /* CaviarDreams_Bold.ttf */ = {isa = PBXFileReference; name = "CaviarDreams_Bold.ttf"; path = "../assets/fonts/CaviarDreams_Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EBB1802BF7BA4F8EA2CC0DD6 /* CaviarDreams_BoldItalic.ttf */ = {isa = PBXFileReference; name = "CaviarDreams_BoldItalic.ttf"; path = "../assets/fonts/CaviarDreams_BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DE5A6B82AB4F451B988D927C /* CaviarDreams_Italic.ttf */ = {isa = PBXFileReference; name = "CaviarDreams_Italic.ttf"; path = "../assets/fonts/CaviarDreams_Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8000107CDCF84ED8B09A5E2E /* CaviarDreams.ttf */ = {isa = PBXFileReference; name = "CaviarDreams.ttf"; path = "../assets/fonts/CaviarDreams.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -710,6 +717,7 @@
 				12A6B2B77C2549D0B5FDCACD /* AppCenter-Config.plist */,
 				B847A36F4172462C60BC0F79 /* Pods */,
 				230B6225212FE44600CBDF44 /* Recovered References */,
+				C6DBBBAF3832453D8DA5A7CD /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -750,6 +758,18 @@
 			);
 			name = Pods;
 			sourceTree = "<group>";
+		};
+		C6DBBBAF3832453D8DA5A7CD /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				4F05F34BE8C94631A775112D /* CaviarDreams_Bold.ttf */,
+				EBB1802BF7BA4F8EA2CC0DD6 /* CaviarDreams_BoldItalic.ttf */,
+				DE5A6B82AB4F451B988D927C /* CaviarDreams_Italic.ttf */,
+				8000107CDCF84ED8B09A5E2E /* CaviarDreams.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -1257,6 +1277,10 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				61CC6B0C65C04037BFD8AC55 /* AppCenter-Config.plist in Resources */,
+				0F7312A2E4E54C9AA9E1F77E /* CaviarDreams_Bold.ttf in Resources */,
+				A880183F97FD42FF94159A87 /* CaviarDreams_BoldItalic.ttf in Resources */,
+				CC6809BAFFB34AB4B61B6D80 /* CaviarDreams_Italic.ttf in Resources */,
+				ACF99432F37A4FD9BDF834A4 /* CaviarDreams.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
